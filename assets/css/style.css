@@ -1,5 +1,6 @@
 body {
     background: darkslategray;
+    font-family: 'VT323', monospace;
 }
 
 /* heading style */
@@ -7,6 +8,6 @@ h1 {
     color: ivory;
     display: flex;
     justify-content: center;
-    font-family: 'VT323', monospace;
     font-size: 4em;
 }
+
