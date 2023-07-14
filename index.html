@@ -23,20 +23,31 @@
     <!-- Rules-->
     <div class="rules">Rules:
         
-        <p>Rock crushes scissors, Scissors cut paper, and Paper covers rock</p>
+        <p>Rock crushes scissors, Paper covers rock and Scissors cut paper.</p>
 
     </div>
     
     
-    <!-- Game -->
-    <div class="game-area">
+    <!-- Game area -->
+    <div class="game-area" id="player-choice">
         <p>Make Your Choice</p>
         
-        <button class="rock"><img src="assets/images/stone.png" alt="stone">Rock</button>
+        <button class="rocks" data-type="rock"><img src="assets/images/stone.png" alt="stone">Rock</button>
         
-        <button class="paper"><img src="assets/images/file.png" alt="paper">Paper</button>
+        <button class="papers" data-type="paper"><img src="assets/images/file.png" alt="paper">Paper</button>
         
-        <button class="scissor"><img src="assets/images/scissor.png" alt="scissors">Scissor</button>
+        <button class="scissors" data-type="scissor"><img src="assets/images/scissor.png" alt="scissors">Scissor</button>
+    </div>
+
+    <div class="game-area" id="computer-choice">
+        <p>Computer Choice</p>
+        
+        <button class="rocks" data-type="rock"><img src="assets/images/stone.png" alt="stone">Rock</button>
+        
+        <button class="papers" data-type="paper"><img src="assets/images/file.png" alt="paper">Paper</button>
+        
+        <button class="scissors" data-type="scissor"><img src="assets/images/scissor.png" alt="scissors">Scissor</button>
+
     </div>
 
     <!-- Score -->
@@ -44,6 +55,10 @@
         <p class="scores">Wins <span id="win">0</span></p>
         <p class="scores">Losses <span id="loss">0</span></p>
     </div>
+    
+    <!-- Footer -->
+    <div class="footer">Created By: RT Guinn</div>
+    
     <script src="assets/js/script.js"></script>
 </body>
 </html>
